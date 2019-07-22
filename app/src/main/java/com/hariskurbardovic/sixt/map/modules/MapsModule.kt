@@ -17,5 +17,5 @@ class MapsModule {
 
     @Provides
     @Singleton
-    fun mapRepository(): MapsRepository = MapsRepository()
+    fun mapsRepository(): MapsRepository = MapsRepository()
 }

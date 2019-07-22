@@ -11,7 +11,7 @@ import javax.inject.Singleton
 @Component(modules = [MapsModule::class])
 interface MapsComponent {
 
-    fun loginViewModelFactory(): MapsViewModelFactory
+    fun mapsViewModelFactory(): MapsViewModelFactory
 
     fun inject(fragment: MapFragment)
 
