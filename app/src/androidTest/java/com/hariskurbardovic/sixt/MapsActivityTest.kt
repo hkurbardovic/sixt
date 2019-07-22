@@ -17,7 +17,7 @@ import org.junit.runner.RunWith
 
 @MediumTest
 @RunWith(AndroidJUnit4::class)
-class MainActivityTest {
+class MapsActivityTest {
 
     @Rule
     @JvmField

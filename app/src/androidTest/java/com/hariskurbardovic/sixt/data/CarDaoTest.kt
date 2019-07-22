@@ -57,7 +57,7 @@ class CarDaoTest {
     }
 
     @Test
-    fun testGetPlantsMatchesId() {
+    fun testGetCarsMatchesId() {
         val carList = getValue(carDao.getAll())
         Assert.assertThat(carList.size, Matchers.equalTo(3))
 
@@ -67,7 +67,7 @@ class CarDaoTest {
     }
 
     @Test
-    fun testGetPlantsMatchesName() {
+    fun testGetCarsMatchesName() {
         val carList = getValue(carDao.getAll())
         Assert.assertThat(carList.size, Matchers.equalTo(3))
 
