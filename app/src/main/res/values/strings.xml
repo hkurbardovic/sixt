@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Sixt</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+
+    <string name="map">Map</string>
+    <string name="list">List</string>
+
+    <string name="car_content_description">Car content description</string>
 </resources>
