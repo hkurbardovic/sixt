@@ -56,7 +56,6 @@ class MapFragment : BaseFragment(), OnMapReadyCallback {
 
         requestAccessFineLocationPermission()
 
-        observeData()
         mapsViewModel.getCars()
 
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
@@ -76,6 +75,8 @@ class MapFragment : BaseFragment(), OnMapReadyCallback {
         setMyLocationEnabled(googleMap)
 
         this.googleMap = googleMap
+
+        observeData()
     }
 
     override fun onRequestPermissionsResult(
